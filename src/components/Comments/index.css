@@ -1,0 +1,145 @@
+.bg-container {
+  min-height: 100vh;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.comments-card {
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.add-input-container {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.add-input-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.comments-img {
+  width: 100%;
+  max-width: 260px;
+}
+
+.sm-device {
+  display: inline;
+}
+
+.md-device {
+  display: none;
+  margin-top: 51px;
+}
+
+.title-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.name-input {
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 260px;
+  height: 35px;
+  padding: 4px 10px 4px 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.comment-input {
+  min-height: 150px;
+}
+
+.submit-btn {
+  height: 30px;
+  width: 120px;
+  border: 0 solid;
+  border-radius: 6px;
+  background-color: #0284c7;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 4px 10px 4px 10px;
+  cursor: pointer;
+}
+
+.total-comments-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  border-top: 2px solid #cbd2d9;
+}
+
+.comments-count {
+  background-color: #0284c7;
+  border: 0 solid;
+  border-radius: 2px;
+  height: 20px;
+  min-width: 20px;
+  padding: 3px 6px 4px 6px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.comments-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.comments-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .sm-device {
+    display: none;
+  }
+  .comments-img {
+    max-width: 50%;
+  }
+
+  .md-device {
+    display: inline;
+  }
+
+  .add-input-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
